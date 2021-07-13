@@ -97,5 +97,6 @@ export default function() {
     return arguments.length ? (threshold = typeof _ === "function" ? _ : Array.isArray(_) ? constant(slice.call(_)) : constant(_), histogram) : threshold;
   };
 
+  // return function object with methods
   return histogram;
 }
